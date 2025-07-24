@@ -4,8 +4,6 @@ A modern and fun implementation of the timeless classic, Snake\! This game is bu
 
 ## 📸 Screenshots
 
-*(It's highly recommended to add screenshots of your game here\! Simply drag and drop your image files into the GitHub editor or use markdown linking.)*
-
 **Example:**
 ![image](https://github.com/user-attachments/assets/3a1d0748-e49d-4ab2-b247-cbceac90cb49)
 *A screenshot of the snake eating an apple.*
