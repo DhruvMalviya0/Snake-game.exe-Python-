@@ -2,19 +2,6 @@
 
 A modern and fun implementation of the timeless classic, Snake! This game is built entirely in **Python** using the **Pygame** library. The goal is simple: guide the snake to eat apples, grow longer, and achieve the highest score without crashing.
 
-## 🗂️ Project Structure (Updated)
-
-- `assets/images/` — All game graphics (snake, apple, etc.)
-- `assets/fonts/` — Game font(s)
-- `assets/sounds/` — Sound effects
-
-## 🎨 Customization
-
-You can easily update the look and feel of the game:
-- Replace images in `assets/images/` with your own modern, flat PNGs.
-- Replace the font in `assets/fonts/` with a modern, open-source font (e.g., Montserrat, Roboto).
-- Replace the sound in `assets/sounds/` with a crisp, modern effect.
-
 ## 📸 Screenshots
 
 **Example:**
@@ -29,7 +16,7 @@ You can easily update the look and feel of the game:
 
   * **Classic Snake Gameplay:** The addictive and simple mechanics that made the original a legend.
   * **Scoring System:** Your score increases with every apple the snake eats.
-  * **Sound Effects:** Hear a satisfying sound effect each time you eat an apple!
+  * **Sound Effects:** Hear a satisfying **"munch"** sound effect each time you eat an apple!
   * **Increasing Challenge:** The snake grows longer with each meal, making it harder to avoid collisions.
   * **Clean Interface:** A minimalist display that keeps the focus on the gameplay and your score.
 
@@ -84,13 +71,5 @@ If you have Python on your system, you can easily run the game from the source c
     2.  Each eaten apple makes the snake longer and adds to your score.
     3.  The game is over if the snake runs into the edge of the screen or into its own body.
   * **Goal:** Aim for the highest score you can get! Good luck!
-
-## 📝 Asset Credits & Customization
-
-- All assets are customizable. Replace any file in `assets/` with your own for a unique look.
-- Recommended sources for modern assets:
-  - [Google Fonts](https://fonts.google.com/) for fonts
-  - [Freesound](https://freesound.org/) for sound effects
-  - [OpenGameArt](https://opengameart.org/) for graphics
 
 -Dhruv, Vaibhav, Bhumit
