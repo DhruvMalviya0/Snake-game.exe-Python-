@@ -1,96 +1,59 @@
-# Python Snake Game 🐍
+# Snake Game in Python
 
-A modern and fun implementation of the timeless classic, Snake! This game is built entirely in **Python** using the **Pygame** library. The goal is simple: guide the snake to eat apples, grow longer, and achieve the highest score without crashing.
+## 🎮 Introduction
 
-## 🗂️ Project Structure (Updated)
+This is a classic **Snake Game** built using **Python and Pygame**. The player controls a snake to eat apples, growing in size while avoiding collisions with the walls and itself. The game features smooth animations, sound effects, and engaging graphics.
 
-- `assets/images/` — All game graphics (snake, apple, etc.)
-- `assets/fonts/` — Game font(s)
-- `assets/sounds/` — Sound effects
+## 🚀 Features
 
-## 🎨 Customization
+- **Classic Snake Mechanics**: Eat apples to grow the snake and increase the score.
+- **Pixel-Perfect Graphics**: Smooth snake movement with head, body, and tail rendering.
+- **Sound Effects**: Crunch sound when eating apples.
+- **Automatic Movement**: The snake moves continuously in the last pressed direction.
+- **Game Over Logic**: Restart the game when colliding with itself or the walls.
+- **Score Counter**: Display of the player’s current score.
 
-You can easily update the look and feel of the game:
-- Replace images in `assets/images/` with your own modern, flat PNGs.
-- Replace the font in `assets/fonts/` with a modern, open-source font (e.g., Montserrat, Roboto).
-- Replace the sound in `assets/sounds/` with a crisp, modern effect.
+## 🛠️ Installation & Setup
 
-## 📸 Screenshots
+1. **Clone the Repository**
+   ```sh
+   git clone https://github.com/yourusername/snake-game.git
+   cd snake-game
+   ```
+2. **Install Dependencies**
+   Ensure you have Python installed (3.8+ recommended), then run:
+   ```sh
+   pip install pygame
+   ```
+3. **Run the Game**
+   ```sh
+   python main.py
+   ```
 
-**Example:**
-![image](https://github.com/user-attachments/assets/3a1d0748-e49d-4ab2-b247-cbceac90cb49)
-*A screenshot of the snake eating an apple.*
-![image](https://github.com/user-attachments/assets/cf6dc202-c0e9-492c-85e1-d410926f8b64)
-*The game over screen showing the final score.*
+## 🎨 Game Assets
 
------
+Make sure the following assets exist inside the correct directories:
 
-## ✨ Features
+- `Graphics/`
+  - `head_up.png`, `head_down.png`, `head_left.png`, `head_right.png`
+  - `body_vertical.png`, `body_horizontal.png`
+  - `body_tr.png`, `body_tl.png`, `body_br.png`, `body_bl.png`
+  - `tail_up.png`, `tail_down.png`, `tail_left.png`, `tail_right.png`
+  - `apple.png`
+- `Sound/`
+  - `crunch.wav`
+- `Font/`
+  - `PoetsenOne-Regular.ttf`
 
-  * **Classic Snake Gameplay:** The addictive and simple mechanics that made the original a legend.
-  * **Scoring System:** Your score increases with every apple the snake eats.
-  * **Sound Effects:** Hear a satisfying sound effect each time you eat an apple!
-  * **Increasing Challenge:** The snake grows longer with each meal, making it harder to avoid collisions.
-  * **Clean Interface:** A minimalist display that keeps the focus on the gameplay and your score.
+## 🎮 Controls
 
------
+| Key           | Action     |
+| ------------- | ---------- |
+| `Arrow Up`    | Move Up    |
+| `Arrow Down`  | Move Down  |
+| `Arrow Left`  | Move Left  |
+| `Arrow Right` | Move Right |
+| `ESC`         | Quit Game  |
 
-## 💻 Technologies Used
 
-  * **Python:** The core programming language for all the game's logic.
-  * **Pygame:** The library used for rendering graphics, handling keyboard input, and playing sounds.
 
------
-
-## 🚀 Getting Started
-
-You can play the game by running the executable or by running the Python script directly.
-
-### Option 1: Play the Game Directly (Easiest)
-
-Just run the `main.exe` file included in the project. No installation required!
-
-### Option 2: Run from Source Code
-
-If you have Python on your system, you can easily run the game from the source code.
-
-**Prerequisites:**
-
-  * [Python 3.x](https://www.python.org/downloads/)
-  * pip (usually included with Python)
-
-**Installation & Execution:**
-
-1.  **Clone this repository to your local machine:**
-
-2.  **Install the Pygame library:**
-
-    ```bash
-    pip install pygame
-    ```
-
-3.  **Run the game script:**
-
-    ```bash
-    python main.py
-    ```
------
-
-## 🎮 How to Play
-
-  * **Controls:** Use the **Arrow Keys** (`Up`, `Down`, `Left`, `Right`) to change the snake's direction.
-  * **Objective:**
-    1.  Guide the snake to eat the apples that appear on the screen.
-    2.  Each eaten apple makes the snake longer and adds to your score.
-    3.  The game is over if the snake runs into the edge of the screen or into its own body.
-  * **Goal:** Aim for the highest score you can get! Good luck!
-
-## 📝 Asset Credits & Customization
-
-- All assets are customizable. Replace any file in `assets/` with your own for a unique look.
-- Recommended sources for modern assets:
-  - [Google Fonts](https://fonts.google.com/) for fonts
-  - [Freesound](https://freesound.org/) for sound effects
-  - [OpenGameArt](https://opengameart.org/) for graphics
-
--Dhruv, Vaibhav, Bhumit
