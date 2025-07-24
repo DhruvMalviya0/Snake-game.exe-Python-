@@ -71,3 +71,5 @@ If you have Python on your system, you can easily run the game from the source c
     2.  Each eaten apple makes the snake longer and adds to your score.
     3.  The game is over if the snake runs into the edge of the screen or into its own body.
   * **Goal:** Aim for the highest score you can get\! Good luck\!
+
+-Dhruv, Vaibhav, Bhumit
